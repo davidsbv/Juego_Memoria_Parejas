@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Parejas</title>
+    <script src="scripJuego.js"></script>
+    <link rel="stylesheet" href="estilos/estilosJuego.css">
+</head>
+<body>
+    <main>
+       <div id="principal">
+            <div id="tablero">
+
+
+            </div>
+            <div id="botones">
+                
+                <div id="seleccionarCartas"> 
+                    <h3>¿Con cuántas cartas quieres jugar?</h3>
+                    <label>10 <input type="radio" name="numeroCartas" id="10" value="10" checked></label>
+                    <label>20 <input type="radio" name="numeroCartas" id="20" value="20"></label>
+                    <label>30 <input type="radio" name="numeroCartas" id="30" value="30"></label>
+                    <label>40 <input type="radio" name="numeroCartas" id="40" value="40"></label>
+                </div>
+                <button id="iniciar" onclick="iniciarJuego();">Iniciar Juego</button>
+                <!-- <button id="reiniciar">Repartir de nuevo</button> -->
+            </div>
+       </div>
+    </main>
+</body>
+</html>

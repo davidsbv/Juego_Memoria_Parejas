@@ -1,0 +1,68 @@
+h2{
+    color:blueviolet;
+    font-size: 5em;
+}
+#principal{
+    display: flex;
+}
+#tablero, #botones{
+    flex:3;
+    border: 2px solid black;
+    height: 100vh;
+    background-color:darkseagreen;
+}
+#tablero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+#botones{
+    display: flex;
+    flex: 0.5;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#seleccionarCartas {
+    color:blue;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#seleccionarCartas:hover input,label{
+    cursor: pointer;
+}
+button{
+    font-size: 2.1vw;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: blueviolet;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
+button:active{
+    background-color: #e8124b;
+    box-shadow: 0 5px #e9e8e8;
+    transform: translateY(10%);
+    color: white;
+}
+img{
+    
+     margin: 1%; 
+     /* width: 6vw; */
+      /* height: 11vh;  */
+}
